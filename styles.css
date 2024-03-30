@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	width:200px;
+	grid-template-columns:repeat(2,100px);
+	grid-template-rows:repeat(2,100px);
+	
+}
+.item-1{
+	background:green;
+}
+.item-2{
+	background:blueviolet;
+}
+.item-3{
+	background:violet;
+}
+.item-4{
+	background:aquamarine;
+}
